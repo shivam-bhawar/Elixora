@@ -1,0 +1,222 @@
+* 
+{
+	box-sizing: border-box;
+}
+
+#navigation_bar
+{
+	background-color: black;
+}
+
+#navigation_bar:after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.nav_item 
+{
+	float: left;
+	width: 20%;
+	font-size: 10px;
+	color: white;
+	padding: 1%;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+a:visited { 
+ text-decoration: none; 
+ color: white; 
+}
+
+a:hover
+{
+	color: dodgerblue;
+}
+
+#welcome
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 250%;
+	text-align: center;
+	background: linear-gradient(to right, skyblue, darkblue);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+#parainfo
+{
+	font-family: 'Poppins', sans-serif;
+	text-align: justify;
+	background-color: azure;
+	border: 1px solid gray;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+#VM
+{
+}
+
+#VM:after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.vm_item
+{
+	float: left;
+	width: 48%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 80%;
+	color: black;
+	background-color: seashell;
+	padding: 10px;
+	margin: 1%;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+
+.vm_heading
+{
+	text-decoration: underline;
+	color: crimson;
+}
+
+.vm_info
+{
+	
+}
+
+.mySlides 
+{
+	display:none;
+	margin-left: 3%;
+}
+
+#products
+{
+	background-color: papayawhip;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px;
+}
+
+#products:after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.products_item
+{
+	float: left;
+	width: 45%;
+	color: black;
+	padding: 1%;
+}
+
+#about_us
+{
+	background-color: black;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+#about_us:after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.about_us_item
+{
+	float: left;
+	width: 45%;
+	font-size: 60%;
+	padding: 1%;
+}
+
+#footer
+{
+	background-color: red;
+}
+
+#footer:after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer_item
+{
+	float: left;
+	width: 16%;
+	font-size: 60%;
+	color: white;
+	padding: 1%;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 900px) 
+{
+	.nav_item 
+	{
+		width: 50%;
+	}
+	.vm_item
+	{
+		width: 50%;
+	}
+	.footer_item
+	{
+		width: 50%;
+	}
+	.products_item
+	{
+		width: 50%;
+	}
+	.about_us_item
+	{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) 
+{
+	.nav_item 
+	{
+		width: 100%;
+	}
+	.vm_item
+	{
+		width: 100%;
+	}
+	.footer_item
+	{
+		width: 100%;
+	}
+	.products_item
+	{
+		width: 100%;
+	}
+	.about_us_item
+	{
+		width: 100%;
+	}
+}
